@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.product-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.product-img {
+    width: 40%;
+    max-width: 400px;
+}
+.product-img img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.product-info {
+    width: 55%;
+}
+.product-info h2 {
+    font-size: 28px;
+    color: #333;
+}
+.product-info p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+.product-info .price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-top: 10px;
+}
+.product-info .rating {
+    margin: 15px 0;
+    border-bottom: 1.5px solid rgb(185, 182, 182);
+
+}
+.rating span {
+    font-size: 18px;
+    color: #f39c12;
+}
+.action-buttons {
+    margin-top: 20px;
+}
+.action-buttons button {
+    background-color: #28a745;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.action-buttons button:hover {
+    background-color: #218838;
+}
+button{
+margin-top: 20px;
+}
+h4{
+  border-bottom: 1.5px solid rgb(185, 182, 182);
+}
